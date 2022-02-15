@@ -1,0 +1,30 @@
+.container{
+    margin: 30px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    /* margin: 30px auto; */
+    position: relative;
+}
+.item img{
+    width: 300%;
+    height: auto;
+}
+.item .caption{
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+.item .wrapper{
+    color: #ffffff;
+    border: 1px solid silver;
+    border-radius: 0px;
+    background-color: rgba(50,50,50,0.5);
+    padding: 32px;
+    max-width: 350px;
+    margin: 0 auto; 
+}

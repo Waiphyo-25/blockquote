@@ -1,0 +1,21 @@
+blockquote{
+    background-image:url(king.jpg);
+    background-size: cover;
+    background-position: fixed;
+    width: 240px;
+    height: auto;
+    margin: 10px;
+    padding: 32px;
+    border-radius: 0px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+footer:before{
+    content:"-";
+}
+p{
+    border-left: 1px solid red;
+    padding-left: 16px;
+    color: #000;
+}
